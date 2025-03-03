@@ -1,0 +1,49 @@
+/* src/components/AddBook.css */
+
+.add-book-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #001aff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-book-form label {
+    margin: 8px 0 4px;
+    font-weight: bold;
+  }
+  
+  .add-book-form input,
+  .add-book-form textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .add-book-form button {
+    padding: 10px;
+    background-color: #646cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .add-book-form button:hover {
+    background-color: #535bf2;
+  }
+  
